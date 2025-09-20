@@ -81,10 +81,7 @@ results = run_experiment("data/processed_medical_qa.csv")
 
 The preprocessing pipeline handles medical text challenges:
 
-1. Medical Term Preservation: Regex patterns preserve medical terminology
-2. Text Normalization: Standardizes format while maintaining accuracy
-3. Question Clustering: Union-Find algorithm groups similar questions
-4. Quality Validation: Removes pathological cases and duplicates
+1. Text Normalization: Standardizes format while maintaining accuracy
 
 ### Retrieval Methods
 
